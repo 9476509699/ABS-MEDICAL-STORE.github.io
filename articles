@@ -1,1 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Health Articles | ABS Medical Store</title>
+
+    <meta name="description"
+          content="Useful health, medicine and pharmacy articles from ABS Medical Store.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f9f7;
+            color: #222;
+        }
+
+        header {
+            background: #087f5b;
+            color: white;
+            padding: 25px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+            font-size: 16px;
+        }
+
+        nav {
+            background: white;
+            padding: 12px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        }
+
+        nav a {
+            color: #087f5b;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 15px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .intro h2 {
+            color: #087f5b;
+        }
+
+        .articles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .article-card {
+            background: white;
+            border-radius: 12px;
+            padding: 22px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .article-card h3 {
+            color: #087f5b;
+            margin-top: 0;
+        }
+
+        .article-card p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .read-more {
+            display: inline-block;
+            background: #087f5b;
+            color: white;
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        footer {
+            margin-top: 40px;
+            background: #063f2f;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ABS Medical Store</h1>
+    <p>Health & Pharmacy Articles</p>
+</header>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">Articles</a>
+</nav>
+
+<div class="container">
+
+    <div class="intro">
+        <h2>Health Articles</h2>
+        <p>
+            Read useful information about medicines, health, pharmacy and
+            everyday healthcare.
+        </p>
+    </div>
+
+    <div class="articles">
+
+        <!-- Article 1 -->
+        <div class="article-card">
+            <h3>What Is Paracetamol?</h3>
+
+            <p>
+                Learn about paracetamol, its common uses, precautions and
+                important safety information.
+            </p>
+
+            <a class="read-more" href="paracetamol.html">
+                Read Article
+            </a>
+        </div>
+
+        <!-- Article 2 -->
+        <div class="article-card">
+            <h3>10 Essential First-Aid Items</h3>
+
+            <p>
+                Learn about useful items that can be included in a basic
+                household first-aid kit.
+            </p>
+
+            <a class="read-more" href="first-aid-kit.html">
+                Read Article
+            </a>
+        </div>
+
+        <!-- Article 3 -->
+        <div class="article-card">
+            <h3>How to Read a Medicine Label</h3>
+
+            <p>
+                Understand common information found on medicine packaging
+                and why reading the label is important.
+            </p>
+
+            <a class="read-more" href="medicine-label.html">
+                Read Article
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 ABS Medical Store. All Rights Reserved.</p>
+
+    <p>
+        The information provided on this website is for educational purposes
+        only and is not a substitute for professional medical advice.
+    </p>
+</footer>
+
+</body>
+</html>
